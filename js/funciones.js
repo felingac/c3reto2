@@ -170,7 +170,7 @@ function resultadosCliente(items){
             $("#estatusCliente").append("<td>" + items[i].name + "</td>");
             $("#estatusCliente").append("<td>" + items[i].email + "</td>");
             $("#estatusCliente").append("<td>" + items[i].age + "</td>");
-            $("#estatusCliente").append("<td>" + '<button onclick="borrarCliente('+items[i].id+')">Borrar</button>' + "</td>");
+            $("#estatusCliente").append("<td>" + '<button onclick="deleteCliente('+items[i].id+')">Borrar</button>' + "</td>");
             $("#estatusCliente").append("<td>" + '<button onclick="getClienteEspecifico('+items[i].id+')">Obtener Registro</button>' + "</td>");
             $("#estatusCliente").append("</tr>");
         };
